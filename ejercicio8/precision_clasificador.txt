@@ -1,0 +1,16 @@
+Precisión por etiqueta:
+	- Etiqueta 'incendios': 1.0
+	- Etiqueta 'calentamiento': 1.0
+	- Etiqueta 'emisiones': 0.4
+	- Etiqueta 'deshielo': 1.0
+	- Etiqueta 'activismo': 0.33
+	- Etiqueta 'combustibles': 0.33
+	- Etiqueta 'sequia': 0.0
+	- Etiqueta 'energiasrenovables': 0.0
+	- Etiqueta 'futuro': 0.29
+	- Etiqueta 'hidrogeno': Sin probar
+	- Etiqueta 'efectoinvernadero': 0.0
+	- Etiqueta 'oladecalor': 1.0
+	- Etiqueta 'offtopic': 0.38
+
+Precisión total: 0.4775

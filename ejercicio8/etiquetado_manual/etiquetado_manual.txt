@@ -1,0 +1,33 @@
+Las noticias se han clasificado mediante las siguientes etiquetas: "INCENDIOS", "CALENTAMIENTO", 
+    "EMISIONES", "DESHIELO", "ACTIVISMO", "COMBUSTIBLES", "SEQUIA", "ENERGIASRENOVABLES", "FUTURO", 
+    "HIDROGENO", "EFECTOINVERNADERO", "OLADECALOR" y "OFFTOPIC".
+
+Noticia 1: Cómo arreglar el sistema alimentario en simples pasos, o no
+futuro emisiones offtopic
+
+Noticia 2: Ya es oficial: la UE prohíbe definitivamente vender coches que emitan CO2 a partir de 2035
+emisiones activismo energiasrenovables combustibles
+
+Noticia 3: Ola de calor: estas serán las ciudades con las temperaturas más extremas
+oladecalor calentamiento
+
+Noticia 4: Plantar árboles en vez de quemarlos
+incendios
+
+Noticia 5: Un iceberg tan grande como Gran Canaria se separa de la Antártida
+deshielo offtopic
+
+Noticia 6: Preocupante anuncio: la OEP admite que las emisiones de CO2 seguirán aumentando hasta 2030
+futuro emisiones combustibles
+
+Noticia 7: Los coches eléctricos son insostenibles para el Estado
+futuro combustibles
+
+Noticia 8: Aigües de Barcelona recibe el premio 'Climate Smart Utility'
+offtopic activismo
+
+Noticia 9: Claves para cuidar la salud mental en verano, que también empeora con el calor
+offtopic oladecalor
+
+Noticia 10: Cómo integrar la sostenibilidad y los ODS en el día: el compromiso (y acción) de Telefónica
+activismo offtopic
