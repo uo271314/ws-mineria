@@ -1,0 +1,27 @@
+Razonamiento de la selección de los clústeres más prometedores:
+
+- Cluster 0: SELECCIONADO -> Temática: incendios.
+- Cluster 1: SELECCIONADO -> Temática: calentamiento.
+- Cluster 2: NO SELECCIONADO -> No tiene una temática muy específica.
+- Cluster 3: NO SELECCIONADO -> Las keywords no se corresponden mucho con las noticias mostradas.
+- Cluster 4: NO SELECCIONADO -> Segmentos relacionados con redes sociales (Twitter, Facebook...). OFFTOPIC
+- Cluster 5: SELECCIONADO -> Temática: emisiones.
+- Cluster 6: SELECCIONADO -> Temática: deshielo.
+- Cluster 7: SELECCIONADO -> Temática: activismo.
+- Cluster 8: NO SELECCIONADO -> Segmentos relacionados con noticias de pago. OFFTOPIC
+- Cluster 9: NO SELECCIONADO -> No tiene una temática muy específica.
+- Cluster 10: NO SELECCIONADO -> No se ciñe a un tema concreto. 
+- Cluster 11: NO SELECCIONADO -> Temática concreta pero alejada del cambio climático. OFFTOPIC
+- Cluster 12: NO SELECCIONADO -> La temática se aleja del cambio climático. OFFTOPIC
+- Cluster 13: NO SELECCIONADO -> La temática se aleja del cambio climático. OFFTOPIC
+- Cluster 14: SELECCIONADO -> Temática: combustibles.
+- Cluster 15: SELECCIONADO -> Temática: sequía.
+- Cluster 16: NO SELECCIONADO -> Información variada y opciones de suscripción. OFFTOPIC
+- Cluster 17: SELECCIONADO -> Temática: energías renovables.
+- Cluster 18: SELECCIONADO -> Temática: futuro.
+- Cluster 19: SELECCIONADO -> Temática: hidrógeno.
+- Cluster 20: NO SELECCIONADO -> Poco riguroso, se centra en opiniones.
+- Cluster 21: NO SELECCIONADO -> Temática variada provocada por hallar elementos informáticos como keywords. OFFTOPIC
+- Cluster 22: SELECCIONADO -> Temática: efecto invernadero.
+- Cluster 23: SELECCIONADO -> Temática: ola de calor.
+- Cluster 24: NO SELECCIONADO -> Temática diversa.
