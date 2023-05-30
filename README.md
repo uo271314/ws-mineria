@@ -76,7 +76,7 @@ Abre una terminal de línea de comandos en la carpeta 'ejercicio6' y ejecuta las
 ./fasttext/fasttext.exe supervised -input ../ejercicio5/entrenamiento.txt -output ./modelo -epoch 80 
 ``` 
 <br>
-![entrenamiento](./ejercicio6/salidas_linea_comandos/entrenamiento.jpg)
+![entrenamiento](https://raw.githubusercontent.com/uo271314/ws-mineria/main/ejercicio6/salidas_linea_comandos/entrenamiento.jpg)
 <br><br>
 
 En este punto se habrán generado los ficheros 'modelo.bin' y 'modelo.vec'. El primero nos servirá para hacer la validación del clasificador.<br>
@@ -85,7 +85,7 @@ En este punto se habrán generado los ficheros 'modelo.bin' y 'modelo.vec'. El p
 ./fasttext/fasttext.exe test ./modelo.bin ../ejercicio5/testing.txt
 ``` 
 <br>
-![testing](./ejercicio6/salidas_linea_comandos/testing.jpg)
+![testing](https://raw.githubusercontent.com/uo271314/ws-mineria/main/ejercicio6/salidas_linea_comandos/testing.jpg)
 <br><br>
 En mi caso, el clasificador tiene una precisión del 82.3%.<br><br>
 
@@ -93,7 +93,7 @@ En mi caso, el clasificador tiene una precisión del 82.3%.<br><br>
 En este ejercicio se evaluará el clasificador contra la colección de noticias negacionistas del cambio climático.<br>
 Para ello, crea una carpeta 'ejercicio8' en la carpeta sobre la que realizas los ejercicios e incorpora a ella el archivo 'tratamiento_otra_coleccion.py' y las carpetas <strong>vacías</strong> 'etiquetado_manual', 'fasttext' y 'tratamiento'.<br>
 <br>
-Si ejecutas el archivo 'tratamiento_otra_coleccion.py', en la carpeta 'tratamiento' se generarán los ficheros 'segmentos_negacionistas_a_predecir.txt', que habrá guardado los diferentes segmentos de cada noticia, y 'vinculo_noticias_segmentos_negacionistas.txt', que por cada noticia incorpora la posición inicial y final (número de línea) de los segmentos de 'noticias_segmentadas.txt', de modo que podemos identificar a qué noticia pertenece cada segmento. [La ejecución puede tardar unos 2 minutos]<br><br>
+Si ejecutas el archivo 'tratamiento_otra_coleccion.py', en la carpeta 'tratamiento' se generarán los ficheros 'segmentos_negacionistas_a_predecir.txt', que habrá guardado los diferentes segmentos de cada noticia, y 'vinculo_noticias_segmentos_negacionistas.txt', que por cada noticia incorpora la posición inicial y final (número de línea) de los segmentos de 'segmentos_negacionistas_a_predecir.txt', de modo que podemos identificar a qué noticia pertenece cada segmento. [La ejecución puede tardar unos 2 minutos]<br><br>
 
 Abre una terminal de línea de comandos en la carpeta 'ejercicio8' y ejecuta la siguiente instrucción, que generará el archivo 'segmentos_negacionistas_tematicas_fasttext.txt' en la carpeta 'fasttext' y que contendrá las etiquetas de cada segmento obtenido en el paso anterior.<br>
 ```bash
@@ -103,7 +103,7 @@ Abre una terminal de línea de comandos en la carpeta 'ejercicio8' y ejecuta la 
 
 Ahora incopora el archivo 'resultados_fasttext.txt' a la carpeta 'ejercicio8'. Si lo ejecutas, se generará el fichero 'noticias_negacionistas_etiquetadas.ndjson', que almacenará cada noticia con un apartado con las etiquetas generadas previamente por fasttext.<br><br>
 
-A continuación, incluye el archivo 'noticias_etiquetado_manual.py' a la carpeta 'ejercicio8'. Si lo ejecutas, se generarán en la carpeta 'etiquetado_manual' los ficheros 'noticias_seleccionadas.txt' con 10 noticias seleccionadas aleatoriamente para evaluar el clasificador y 'noticias_a_etiquetar.txt', que contiene el título y el contenido de cada noticia para su evaluación manual.<br>
+A continuación, incluye el archivo 'noticias_etiquetado_manual.py' a la carpeta 'ejercicio8'. Si lo ejecutas, se generarán en la carpeta 'etiquetado_manual' los ficheros 'noticias_seleccionadas.txt' con 10 noticias seleccionadas aleatoriamente para evaluar el clasificador y 'noticias_a_etiquetar.txt', que contiene el título y el contenido de dichas noticias para su evaluación manual.<br>
 
 En este punto, deberás crear en la carpeta 'etiquetado_manual' un archivo 'etiquetado_manual.txt' <strong> siguiendo el formato dado</strong> (copiar las 3 primeras líneas del ejemplo 'etiquetado_manual.txt' y por cada noticia, copiar el título generado en 'noticias_a_etiquetar.txt' y en una nueva línea poner cada etiqueta en minúsculas, separadas por un espacio).<br><br>
 
