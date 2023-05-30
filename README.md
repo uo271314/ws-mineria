@@ -76,7 +76,8 @@ Abre una terminal de línea de comandos en la carpeta 'ejercicio6' y ejecuta las
 ./fasttext/fasttext.exe supervised -input ../ejercicio5/entrenamiento.txt -output ./modelo -epoch 80 
 ``` 
 <br>
-[img_entrenamiento](https://raw.githubusercontent.com/uo271314/ws-mineria/main/ejercicio6/salidas_linea_comandos/entrenamiento.jpg)
+
+![img_entrenamiento](https://raw.githubusercontent.com/uo271314/ws-mineria/main/ejercicio6/salidas_linea_comandos/entrenamiento.jpg)
 <br><br>
 
 En este punto se habrán generado los ficheros 'modelo.bin' y 'modelo.vec'. El primero nos servirá para hacer la validación del clasificador.<br>
@@ -85,7 +86,8 @@ En este punto se habrán generado los ficheros 'modelo.bin' y 'modelo.vec'. El p
 ./fasttext/fasttext.exe test ./modelo.bin ../ejercicio5/testing.txt
 ``` 
 <br>
-[img_testing](https://raw.githubusercontent.com/uo271314/ws-mineria/main/ejercicio6/salidas_linea_comandos/testing.jpg)
+
+![img_testing](https://raw.githubusercontent.com/uo271314/ws-mineria/main/ejercicio6/salidas_linea_comandos/testing.jpg)
 <br><br>
 En mi caso, el clasificador tiene una precisión del 82.3%.<br><br>
 
